@@ -9,7 +9,7 @@
                 <img src="@/assets/images/TabBar/home-active.svg" alt="home" />
             </template>
             <template v-slot:item-text>
-                <div>index</div>
+                <div>Home</div>
             </template>
         </tab-bar-item>
         <!-- one item -->

@@ -9,11 +9,10 @@ const Profile = () => import('@/views/Profile/Profile')
 Vue.use(VueRouter)
 
 const routes = [{
-            path: '',
+            path: '/',
             redirect: '/home'
       }, {
-            path: '/',
-            name: 'home',
+            path: '/home',
             component: Home
       }, {
             path: '/category',
